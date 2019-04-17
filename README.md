@@ -1,3 +1,8 @@
+It's a frontend interview test, unfortunately I couldn't finish.
+The experience its was nice and had showing me how much I have to learn, but it was a excellente challenge.
+
+================================================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
