@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* FOOTER. */
+.footer{
+  position: relative;
+  clear:both;
+  float: left;
+  width: 100em;
+  height: 9em;
+  margin-top: 50em;
+  background-color: white;
+}
+
+.ps{  
+  height: 3em;
+}
+
+.title-footer-black{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.title-footer-orange{
+  font-size:20px;
+  font-weight: bold;
+  color: orange;
+}
+
+.middle-footer{
+  color: grey;
+  font-size: 13px;
+}
+
+.link-footer{
+  color: orange;
+  font-size:14px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/* AppBar */
+.login{  
+  margin: 0 0 0 10em;
+  text-align:center;
+  border-left: .6px #C0C0C0 solid;    
+  float: left;
+  display: block;
+}
+
+.link-menu .icon {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .link-menu{
+    visibility:hidden;    
+    width: 0;
+  }
+
+  .link-menu a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .link-menu{
+    visibility: visible;
+    align-items:center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    width: 10em;
+    margin-left:5em;
+  }
+}
+
+.link-menu:hover,a{
+  color: orange;
+} 
+
+.button-orange{
+  background-color: orange;
+}
+
+/* container */
+.w3-display-middle{
+  background-color: white;
+  border: .6px #C0C0C0 solid;  
+  border-radius: 3px;
+  margin: 30px 10px 10px 10px;
+}
+
+.w3-display-bottommiddle{
+  background-color: white;  
+  border: .6px #C0C0C0 solid;  
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+
+/* box */
+.star{
+  color: orange;
+}
+
+.star-half{
+  color: orange;
+}
+
+.size-box{
+  padding: 20px 20px 20px 20px; 
+}
+
+.title-box{
+  font-family: sans-serif;
+  color: #757575;
+  font-size:16px;
+  font-weight: bold;
+  text-align:left;
+}
+
+.text-info-box{
+  font-family: tahoma;
+  font-size:14px;
+  text-align:left;
+  width:150px;
+}
+
+.text-price-box{
+  font-family: geneva;
+  font-size:18px;
+  text-align:left;
+  font-weight: bold;
+}
+
+.img-box{
+  width:100px;
+  height:100px;
+}
+
+.line-grey{
+  padding: 0 0 10px 0;
+  border-top: grey 1px solid;
+  width:300px;
+  text-align: center;
+}
+
+.link-orange{
+  text-align: center; 
+  color: orange;
+}
+
+.middle-box{
+  margin: 0 0 0 0;
+  padding: 0 0 10px 0;
+}
